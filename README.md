@@ -18,7 +18,7 @@ To update all packages that can be updated to conda-forge:
 
 Move conda libs ahead of OS libs in `$LD_LIBRARY_PATH` to help address ld linker errors:
 
-`conda env config vars set LD_LIBRARY_PATH=/home/bjohnson361-gtri/.conda/envs/ENV_NAME/lib:$LD_LIBRARY_PATH`
+`conda env config vars set LD_LIBRARY_PATH=/home/bjohnson/.conda/envs/ENV_NAME/lib:$LD_LIBRARY_PATH`
 
 If you get issues with `GLIBC_x.x` not being found, try installing:
 
